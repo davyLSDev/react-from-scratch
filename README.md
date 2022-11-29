@@ -66,3 +66,7 @@ npm webpack-dev-server --mode development **OK**
 21. Troubleshoot, install babel plugin for jsx:
 * npm install --save-dev @babel/plugin-syntax-jsx
 22. Upgrade package.json to allow for using "npm start" and to select a port to use
+
+## Other websites for resources
+
+* [set up a react app from scratch](https://medium.com/swlh/back-to-basics-how-to-set-up-a-react-app-from-scratch-2020-134908e17490)
