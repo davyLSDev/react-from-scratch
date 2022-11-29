@@ -20,3 +20,9 @@
 	{
  	 "presets": ["@babel/env", "@babel/preset-react"]
 	}
+7. Install and configure *webpack*
+* npm install --save-dev webpack@4.19.1 webpack-cli@3.1.1 webpack-dev-server@3.1.8 style-loader@0.23.0 css-loader@1.0.0 babel-loader@8.0.2
+* npm audit fix
+* npm audit fix --force (still get 5 high vulnerabilities)  **Needs work**
+* create webpack.config.js and populate it with a generic template from the tutorial website:
+[URL](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)
