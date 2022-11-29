@@ -26,3 +26,5 @@
 * npm audit fix --force (still get 5 high vulnerabilities)  **Needs work**
 * create webpack.config.js and populate it with a generic template from the tutorial website:
 [URL](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)
+8. Install React dependencies
+* npm install --save-dev react@16.5.2 react-dom@16.5.2
