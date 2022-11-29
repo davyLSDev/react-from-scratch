@@ -59,3 +59,6 @@ npm webpack-dev-server --mode development **OK**
 15. Found this [URL](https://namespaceit.com/blog/webpack-options-has-an-unknown-property-hotonly-invalid-options-object-dev-server-has-been-initialized-using-an-options-object)
 16. Now run	"npx webpack-dev-server --mode development"
 17. Error, need a src/App.js file
+18. Ok, still my App.js is not seeming to do anything, I noted that in the deprecated API there was a path for putting the "bundle.js", I had just commented out "publicPath" for that piece, but ... make webpack.config.js a .BAK file and
+19. Do "npx webpack init" and follow the questions to create a useable webpack.config.js file
+* hmm not sure about the answers to all the question, and in the midst of using "npx webpack init" it wants to re-write package.json, so I copied that to a .BAK file as well.
