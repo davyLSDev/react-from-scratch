@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "start": "SET PORT=5500 && npx webpack-dev-server --mode development",
     "test": "mocha"
   },
   "repository": {

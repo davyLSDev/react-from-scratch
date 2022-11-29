@@ -61,4 +61,8 @@ npm webpack-dev-server --mode development **OK**
 17. Error, need a src/App.js file
 18. Ok, still my App.js is not seeming to do anything, I noted that in the deprecated API there was a path for putting the "bundle.js", I had just commented out "publicPath" for that piece, but ... make webpack.config.js a .BAK file and
 19. Do "npx webpack init" and follow the questions to create a useable webpack.config.js file
-* hmm not sure about the answers to all the question, and in the midst of using "npx webpack init" it wants to re-write package.json, so I copied that to a .BAK file as well.
+* hmm not sure about the answers to all the question, and in the midst of using "npx webpack init" it wants to re-write package.json, so I copied that to a .BAK file as well. The port served up has changed from 3000 to 8080.
+20. Rewrite index.js ... compile with npx ...
+21. Troubleshoot, install babel plugin for jsx:
+* npm install --save-dev @babel/plugin-syntax-jsx
+22. Upgrade package.json to allow for using "npm start" and to select a port to use
