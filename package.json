@@ -1,0 +1,33 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "This is a little demo on how to create a react app without using the \"npx create-react-app\" application/script.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davyLSDev/react-from-scratch.git/"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "create",
+    "react",
+    "mocha",
+    "chai",
+    "bundle",
+    "babel",
+    "webpack",
+    "HMR-",
+    "hot",
+    "module",
+    "replacement"
+  ],
+  "author": "Dawson Tennant",
+  "license": "0BSD"
+}
