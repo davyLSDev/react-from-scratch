@@ -28,3 +28,23 @@
 [URL](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)
 8. Install React dependencies
 * npm install --save-dev react@16.5.2 react-dom@16.5.2
+* I started with : npm install --save-dev react react-dom ... that FAILED!
+* then tried npm install --save-dev react@16.5.2 react-dom@16.5.2 ... that FAILED!
+* ok, try: npm install --save-dev react@18.2.0 react-dom@18.2.0
+9. update-npm-dependencies
+* [Flavio Copes to the rescue](https://flaviocopes.com/update-npm-dependencies/)
+* npm install -g npm-check-updates
+* run it: ncu -u
+* run npm install
+10. Now run npm install --save-dev react@18.2.0 react-dom@18.2.0 ==> SUCCESS!
+11. Tell *react* where to hook into the DOM (in our public/index.html)
+* create the file src/index.js and populate it with:
+	import React from "react";
+	import ReactDOM from "react-dom";
+	import App from "./App.js";
+	ReactDOM.render(<App />, document.getElementById("root"));
+12. Also, as *webpack* processes *css*, create src/App.css and populate it with something simple like:
+	.App {
+  	  margin: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+	}	
