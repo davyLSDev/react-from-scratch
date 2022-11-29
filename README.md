@@ -47,4 +47,15 @@
 	.App {
   	  margin: 1rem;
       font-family: Arial, Helvetica, sans-serif;
-	}	
+	}
+13. Should have a working react app. Start it running with:
+npm webpack-dev-server --mode development **OK**
+* hmm it doesn't seem to be installed => npm webpack-dev-server
+* that makes me think the ff are also not installed:
+* style-loader, css-loader, babel-loader, so install them too:
+* npm install style-loader css-loader babel-loader	**OK**
+14. Troubleshoot how to run webpack-dev-server:
+* when running it seems the API has changed from when the article was written, as 'hotOnly' and'publicPath' are options object that do not match the API schema. Then looking at the API here [URL]() I couldn't figure out how to translate these old API schema options objects.
+15. Found this [URL](https://namespaceit.com/blog/webpack-options-has-an-unknown-property-hotonly-invalid-options-object-dev-server-has-been-initialized-using-an-options-object)
+16. Now run	"npx webpack-dev-server --mode development"
+17. Error, need a src/App.js file
